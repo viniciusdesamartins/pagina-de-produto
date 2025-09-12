@@ -1,0 +1,163 @@
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.product-details {
+  display: flex;
+  gap: 40px;
+}
+
+.product-gallery {
+  flex: 1;
+}
+
+.product-gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gallery-thumbnails {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.gallery-thumbnails img {
+  width: 60px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+/* Informações do produto */
+
+.product-info {
+  flex: 1;
+}
+
+.product-path,
+.product-code {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.product-info h2 {
+  color: #e0e0e0;
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 2rem;
+  color: #ffa500;
+  margin: 10px 0;
+}
+
+.rating {
+  color: #d8d407;
+  font-size: 1rem;
+}
+
+.product-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #b0b0b0;
+  margin-top: 20px;
+}
+
+/* Opções do Produto */
+
+.product-options {
+  margin: 20px 0;
+}
+
+#color,
+#quantity {
+  width: 100px;
+}
+
+.product-options label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.product-options select,
+.product-options input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+/* Botões */
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.add-to-cart,
+.add-to-wishlist {
+  padding: 15px 30px;
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.add-to-cart:hover {
+  background-color: #388e3c;
+}
+
+.add-to-wishlist {
+  border: 2px solid #ffa500;
+  color: white;
+}
+
+.add-to-wishlist:hover {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.delivery {
+  margin-top: 20px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Tabs */
+
+.product-specs {
+  margin-top: 40px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tabs {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  border-bottom: 2px solid #333;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.tabs li {
+  font-weight: bold;
+  cursor: pointer;
+  color: #777;
+}
+
+.specs-content p {
+  font-size: 1rem;
+  color: #b0b0b0;
+  margin: 10px 0;
+}

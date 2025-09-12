@@ -1,0 +1,25 @@
+@media (max-width: 1024px) {
+  .top-bar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .logo h1 {
+    margin: 0;
+  }
+
+  .product-details {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .tabs li {
+    font-size: 0.8rem;
+  }
+}
