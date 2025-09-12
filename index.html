@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechStore - Fone de Ouvido</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/pages/partials/index.css" />
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="logo">
+          <img src="./assets/img/global/logo.png" alt="TechStore Logo" />
+          <h1>TechStore</h1>
+        </div>
+        <nav class="navbar">
+          <a href="#">Computadores</a>
+          <a href="#">TVs</a>
+          <a href="#">Acessórios</a>
+          <a href="#">Promoções</a>
+        </nav>
+        <div class="user-options">
+          <a href="#"><i class="fas fa-user"></i>Login / Cadastro</a>
+          <input type="text" placeholder="Buscar produto" />
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="product-details">
+        <!--Imagem-->
+        <div class="product-gallery">
+          <img src="./assets/img/fone_destaque.png" alt="Fone de Ouvido" />
+          <div class="gallery-thumbnails">
+            <img
+              src="./assets/img/fone1.png"
+              alt="Fone de Ouvido - Detalhes 1"
+            />
+            <img
+              src="./assets/img/fone2.png"
+              alt="Fone de Ouvido - Detalhes 2"
+            />
+            <img
+              src="./assets/img/fone3.png"
+              alt="Fone de Ouvido - Detalhes 3"
+            />
+          </div>
+        </div>
+        <!--Informacoes-->
+        <div class="product-info">
+          <p class="product-path">
+            <i class="fas fa-chevron-right"></i> Tecnologia / Fones / Sem Fio
+          </p>
+          <h2>Fone de Ouvido Bluetooh - Preto</h2>
+          <p class="product-code">Código do Produto: 987SADX1</p>
+          <p class="price">R$ 350,00</p>
+          <p class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            45 avaliações
+          </p>
+          <p class="product-description">
+            Aproveite uma experiência sonora única com nossos fones de ouvido
+            Bluetooth. Design moderno, leve e ideal para qualquer ocasião. Sons
+            nítidos e graves potentes que elevam sua música a um novo patamar.
+          </p>
+          <div class="product-options">
+            <label for="color">Cor:</label>
+            <select name="color" id="color">
+              <option value="preto">Preto</option>
+              <option value="branco">Branco</option>
+              <option value="cinza">Cinza</option>
+            </select>
+            <label for="quantity">Quantidade:</label>
+            <input type="number" name="quantity" id="quantity" value="1" />
+          </div>
+          <div class="buttons">
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i>
+              Adicionar ao carrinho
+            </button>
+            <button class="add-to-wishlist">
+              <i class="fas fa-heart"></i>
+              Adicionar à lista de desejos
+            </button>
+          </div>
+          <p class="delivery">
+            <i class="fas fa-truck"></i>
+            Estimativa de Entrega: Consulte nosso Termos e Condições
+          </p>
+        </div>
+      </div>
+      <div class="product-specs">
+        <ul class="tabs">
+          <li><i class="fas fa-info-circle"></i>Detalhes</li>
+          <li><i class="fas fa-undo"></i>Devolução</li>
+          <li><i class="fas fa-shipping-fast"></i>Entrega</li>
+        </ul>
+        <div class="specs-content">
+          <div>
+            <p><strong>SKU:</strong> AC12357A</p>
+            <p><strong>Material externo:</strong> Plástico ABS</p>
+            <p><strong>Tempo de bateria:</strong> Até 20 horas</p>
+            <p><strong>Conectividade:</strong> Bluetooh 5.0</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
